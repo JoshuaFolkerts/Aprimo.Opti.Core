@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\folkertsj\.nuget\packages\episerver.cms.tinymce\3.0.1\contentFiles\any\any\modules\_protected\EPiServer.Cms.TinyMce\EPiServer.Cms.TinyMce.zip" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.90" />
+    <PackageReference Include="EPiServer.CMS.AspNetCore.Mvc" Version="12.0.4" />
+    <PackageReference Include="EPiServer.CMS.AspNetCore.Routing" Version="12.0.4" />
+    <PackageReference Include="EPiServer.CMS.AspNetCore.Templating" Version="12.0.4" />
+    <PackageReference Include="EPiServer.CMS.TinyMce" Version="3.0.1" />
+    <PackageReference Include="EPiServer.CMS.UI" Version="12.0.3" />
+    <PackageReference Include="RestSharp" Version="106.12.0" />
+    <PackageReference Include="RestSharp.Serializers.NewtonsoftJson" Version="106.12.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
+</Project>
